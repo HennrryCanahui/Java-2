@@ -62,9 +62,15 @@ public class Main {
         int limite = scanner_tres.nextInt();
         EjerciciosJavaBucleWhileHennrryCanahui.generarSecuenciaFibonacci(limite);
 
+       //
+        Scanner scanner_cuatro = new Scanner(System.in);
 
-
-
-
+        EjerciciosJavaBucleForHennrryCanahui.imprimirNumerosPares();
+        //
+        EjerciciosJavaBucleForHennrryCanahui.mostrarTablaMultiplicar(scanner);
+        //
+        EjerciciosJavaBucleForHennrryCanahui.calcularSumaNumerosPares(scanner);
+        //
+        EjerciciosJavaBucleForHennrryCanahui.calcularFactorial(scanner);
     }
 }
